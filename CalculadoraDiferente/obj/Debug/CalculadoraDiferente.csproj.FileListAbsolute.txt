@@ -1,0 +1,15 @@
+C:\Users\Martin Dala\source\repos\CalculadoraDiferente\CalculadoraDiferente\bin\Debug\CalculadoraDiferente.exe.config
+C:\Users\Martin Dala\source\repos\CalculadoraDiferente\CalculadoraDiferente\bin\Debug\CalculadoraDiferente.exe
+C:\Users\Martin Dala\source\repos\CalculadoraDiferente\CalculadoraDiferente\bin\Debug\CalculadoraDiferente.pdb
+C:\Users\Martin Dala\source\repos\CalculadoraDiferente\CalculadoraDiferente\obj\Debug\CalculadoraDiferente.csprojAssemblyReference.cache
+C:\Users\Martin Dala\source\repos\CalculadoraDiferente\CalculadoraDiferente\obj\Debug\CalculadoraDiferente.Form1.resources
+C:\Users\Martin Dala\source\repos\CalculadoraDiferente\CalculadoraDiferente\obj\Debug\CalculadoraDiferente.Properties.Resources.resources
+C:\Users\Martin Dala\source\repos\CalculadoraDiferente\CalculadoraDiferente\obj\Debug\CalculadoraDiferente.csproj.GenerateResource.cache
+C:\Users\Martin Dala\source\repos\CalculadoraDiferente\CalculadoraDiferente\obj\Debug\CalculadoraDiferente.csproj.CoreCompileInputs.cache
+C:\Users\Martin Dala\source\repos\CalculadoraDiferente\CalculadoraDiferente\obj\Debug\CalculadoraDiferente.exe
+C:\Users\Martin Dala\source\repos\CalculadoraDiferente\CalculadoraDiferente\obj\Debug\CalculadoraDiferente.pdb
+C:\Users\Martin Dala\source\repos\CalculadoraDiferente\CalculadoraDiferente\bin\Debug\CalculadoraDiferente.exe.manifest
+C:\Users\Martin Dala\source\repos\CalculadoraDiferente\CalculadoraDiferente\bin\Debug\CalculadoraDiferente.application
+C:\Users\Martin Dala\source\repos\CalculadoraDiferente\CalculadoraDiferente\obj\Debug\CalculadoraDiferente.TrustInfo.xml
+C:\Users\Martin Dala\source\repos\CalculadoraDiferente\CalculadoraDiferente\obj\Debug\CalculadoraDiferente.exe.manifest
+C:\Users\Martin Dala\source\repos\CalculadoraDiferente\CalculadoraDiferente\obj\Debug\CalculadoraDiferente.application

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CalculadoraDiferente.exe" version="1.0.0.0" publicKeyToken="40136c15ff25b516" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Oxygen-Icons.org-Oxygen-Apps-accessories-calculator.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CalculadoraDiferente" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CalculadoraDiferente.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Opções de Manifesto UAC
+ Se você deseja alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó requestedExecutionLevel 
+ por um dos seguintes.
+
+<requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+ Especificar o elemento requestedExecutionLevel desabilitará a virtualização de arquivos e Registro. 
+ Remova esse elemento se seu aplicativo requer essa virtualização para compatibilidade
+            com versões anteriores.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CalculadoraDiferente.exe" size="205320">
+      <assemblyIdentity name="CalculadoraDiferente" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OSXsmZZqt5yA53B24ZBEGYtllygEx1VQSlQD+WBNFWQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CalculadoraDiferente.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Oxygen-Icons.org-Oxygen-Apps-accessories-calculator.ico" size="184034">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Bq31ijor69lOzIhghCMu2pufqj5kC+UQczp1mVNQEZE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Uma lista das versões do Windows nas quais este aplicativo foi testado e
+           com as quais ele foi projetado para trabalhar. Remova a marca de comentário dos elementos apropriados
+           e o Windows selecionará automaticamente o ambiente mais compatível. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-31UV3C6\Martin Dala" issuerKeyHash="e8dc31ee9e5eb289f86ccd3b193e5a30ddef3afb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6hy/xCPzIsL/n+YXVqLK6ZJ8yP/BYZ3eE7xg4juavvA=</DigestValue></Reference></SignedInfo><SignatureValue>NLHDS6BZyNp8niO6AwOeFC93865Kf5R4rQAb9pc2RpWpWe78HVtknOsKBxbUC4o9D7aW04cX3BU6vKjjEpOHAe7iLl5ZctBw2qR8dYKZ4dp3534pQyXdsAbLx3IOBd5rp+vrSZOSU+Nim/J8xVrAomcXW83wlGgDdmy+aN+hdX4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6aBbq7dQAnMAkOnJHZ5nqx/XF0LGkrmtsbf0TOqSgY4ib8v/cjR/kmGt+6V2/bce961vCBZSyassyeljeANFkXH0FWcsdQbRMN4cVUAt599dRf5UrZLRy3TP/ouVBXoE2AB7uOITgTXI30nNbOyEDkhqhwcYs4mLFHApVhb3TY0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f0be9a3be260bc13de9d61c1ffc87c92e9caa25617e69fffc222f323c4bf1cea" Description="" Url=""><as:assemblyIdentity name="CalculadoraDiferente.exe" version="1.0.0.0" publicKeyToken="40136c15ff25b516" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-31UV3C6\Martin Dala</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YrpaQ8RGN2V5I1XVDwnOYeN7tBfp7EjocJIJeeCXi5c=</DigestValue></Reference></SignedInfo><SignatureValue>ZNOB0aCGFGgILVHs46GBagGZF5CYW+miKma2RhHobwM9o+PrUY3LD0FEfp9Da26M8AM4P5J/I71rPFqPCX++UcjaoxzqoelWO5Qkd7zxB8xspcxTjoBXvIlSsSN/RdJWcIo1u9L8EuNCmVguw8v/c9o7IKSXJmVAZDtgKTfDcyM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6aBbq7dQAnMAkOnJHZ5nqx/XF0LGkrmtsbf0TOqSgY4ib8v/cjR/kmGt+6V2/bce961vCBZSyassyeljeANFkXH0FWcsdQbRMN4cVUAt599dRf5UrZLRy3TP/ouVBXoE2AB7uOITgTXI30nNbOyEDkhqhwcYs4mLFHApVhb3TY0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQIkP44GpOwZFIMpzcl2V+rTANBgkqhkiG9w0BAQsFADBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtADMAMQBVAFYAMwBDADYAXABNAGEAcgB0AGkAbgAgAEQAYQBsAGEwHhcNMTkxMTEzMjAzMTA0WhcNMjAxMTEzMDIzMTA0WjBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtADMAMQBVAFYAMwBDADYAXABNAGEAcgB0AGkAbgAgAEQAYQBsAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOmgW6u3UAJzAJDpyR2eZ6sf1xdCxpK5rbG39EzqkoGOIm/L/3I0f5Jhrfuldv23HvetbwgWUsmrLMnpY3gDRZFx9BVnLHUG0TDeHFVALeffXUX+VK2S0ct0z/6LlQV6BNgAe7jiE4E1yN9JzWzshA5IaocHGLOJixRwKVYW902NAgMBAAEwDQYJKoZIhvcNAQELBQADgYEA4aYgWl7BXYhMsx8kBjhnv8aQYlR1VgDKmmMw9Sx+0zYbK4OmknurkKjcbjLjZrywGZfp0makKzasF+1HVkrZzR0FGVZqiiPN590uzNU33DS6XZDERdZ4ItaqrDq3cpaV/yxlkkXz/ytIWfzVKFwjKmIINRcdp+C0bCHxC8qKVCg=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
